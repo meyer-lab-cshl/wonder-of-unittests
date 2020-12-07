@@ -11,7 +11,7 @@ def add(a, b):
 assert add(1, 1) == 2
 ~~~
 
-## External test suite
+### A simple test suite
 
 `library.py`:
 
@@ -38,15 +38,15 @@ if __name__ == "__main__":
 
 ---
 
-## Always write a _failing_ test
+### Always write a _failing_ test
 
 ---
 
-## angle.py
+### angle.py
 
 ---
 
-## Assert methods
+### Assert methods
 
 ~~~python
 assertEqual(a, b)
@@ -60,7 +60,9 @@ assertWarns(warning, regex, callable, *args, **kwargs)
 
 Plenty more... [https://docs.python.org/3.8/library/unittest.html?highlight=unittest#assert-methods](https://docs.python.org/3.8/library/unittest.html?highlight=unittest#assert-methods)
 
-## Tests for _data_
+---
+
+### Tests for _data_
 
 ~~~python
 import unittest
@@ -76,5 +78,3 @@ class TestData(self):
 if __name__ == "__main__":
   unittest.main()
 ~~~
-
----
