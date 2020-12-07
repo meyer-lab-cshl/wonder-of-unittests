@@ -78,3 +78,8 @@ class TestData(self):
 if __name__ == "__main__":
   unittest.main()
 ~~~
+
+### Final thoughts
+
+- Write code that is easy to test
+- Trapping a bug
